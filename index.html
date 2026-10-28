@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PAUD Nurul Hikmah, Cianjur (Demo)</title>
+<meta name="description" content="Situs demo PAUD Nurul Hikmah, Cianjur, Jawa Barat. Seluruh isi masih contoh dan perlu dikonfirmasi sekolah.">
+<meta property="og:title" content="PAUD Nurul Hikmah (Demo)">
+<meta property="og:description" content="Demo situs sekolah PAUD. Data belum resmi.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="demo-bar">DEMO — DATA PERLU KONFIRMASI. Semua isi di situs ini contoh, bukan informasi resmi sekolah.</div>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#beranda"><span class="logo" aria-hidden="true">NH</span><span>PAUD Nurul Hikmah<small>Logo konsep demo</small></span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Menu utama">
+      <a href="#beranda">Beranda</a><a href="#profil">Profil</a><a href="#program">Program</a><a href="#kegiatan">Kegiatan</a><a href="#berita">Berita</a><a href="#pendaftaran">Pendaftaran</a><a href="#kontak">Kontak</a>
+      <a class="btn btn-gold" href="#pendaftaran">Informasi Pendaftaran</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section id="beranda" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>PAUD Nurul Hikmah</h1>
+      <p class="lead">Tempat anak bermain, mengenal dunia, dan tumbuh dengan dampingan orang tua dan guru. Cianjur, Jawa Barat.</p>
+      <p class="actions"><a class="btn btn-gold" href="#program">Lihat Program</a> <a class="btn btn-light" href="#pendaftaran">Informasi Pendaftaran</a></p>
+    </div>
+    <div class="art" role="img" aria-label="Ilustrasi demo: balok mainan dan bintang">
+      <span class="blk b1"></span><span class="blk b2"></span><span class="blk b3"></span><span class="star">★</span>
+    </div>
+  </div>
+</section>
+
+<section id="profil" class="sec wrap">
+  <h2>Profil sekolah</h2>
+  <p class="note">Contoh tata letak. Isi resmi menunggu data dari sekolah.</p>
+  <div class="grid two">
+    <article class="card"><h3>Visi</h3><p>[Visi resmi sekolah perlu dikonfirmasi]</p><h3>Misi</h3><p>[Misi resmi sekolah perlu dikonfirmasi]</p></article>
+    <article class="card"><h3>Identitas</h3>
+      <dl><dt>Nama</dt><dd>PAUD Nurul Hikmah</dd><dt>Kota</dt><dd>Cianjur, Jawa Barat</dd>
+      <dt>Alamat lengkap</dt><dd>Perintis Kemerdekaan, Kp. Cikaret, RT 02 / RW 01, Kelurahan/Desa Sukamaju, Kecamatan Cianjur, Kabupaten Cianjur, Provinsi Jawa Barat (Kode Pos: 43211)</dd><dt>NPSN</dt><dd>69823603</dd><dt>Akreditasi</dt><dd>B</dd></dl></article>
+  </div>
+</section>
+
+<section id="program" class="sec alt"><div class="wrap">
+  <h2>Program pembelajaran</h2>
+  <p class="note">Konsep contoh, belum program resmi sekolah.</p>
+  <div class="grid three">
+    <article class="card"><span class="tag">Contoh konsep</span><h3>Bermain dan bereksplorasi</h3><p>Kegiatan bermain terarah untuk melatih rasa ingin tahu.</p></article>
+    <article class="card"><span class="tag">Contoh konsep</span><h3>Mengenal huruf dan angka</h3><p>Pengenalan dasar lewat cerita dan permainan.</p></article>
+    <article class="card"><span class="tag">Contoh konsep</span><h3>Karakter dan ibadah</h3><p>Pembiasaan sikap baik sehari-hari.</p></article>
+  </div>
+</div></section>
+
+<section id="kegiatan" class="sec wrap">
+  <h2>Kegiatan dan galeri</h2>
+  <p class="note">Gambar ilustrasi demo. Foto anak asli hanya boleh dipasang dengan izin tertulis orang tua.</p>
+  <div class="gallery" id="gallery">
+    <button type="button" class="tile t1" data-caption="Contoh: kegiatan bermain balok (ilustrasi demo)">Bermain balok</button>
+    <button type="button" class="tile t2" data-caption="Contoh: kegiatan menggambar (ilustrasi demo)">Menggambar</button>
+    <button type="button" class="tile t3" data-caption="Contoh: kegiatan bercerita (ilustrasi demo)">Bercerita</button>
+    <button type="button" class="tile t4" data-caption="Contoh: kegiatan di luar kelas (ilustrasi demo)">Di luar kelas</button>
+  </div>
+  <dialog id="viewer"><div class="viewer-art" id="viewerArt"></div><p id="viewerCaption"></p><button type="button" class="btn btn-gold" id="viewerClose">Tutup</button></dialog>
+</section>
+
+<section id="berita" class="sec alt"><div class="wrap">
+  <h2>Berita dan pengumuman</h2>
+  <p class="note" id="newsNote"></p>
+  <div class="grid three" id="newsList" aria-live="polite"></div>
+</div></section>
+
+<section id="pendaftaran" class="sec wrap">
+  <h2>Informasi pendaftaran</h2>
+  <p class="note">Alur dan persyaratan di bawah masih contoh. Biaya dan jadwal belum tersedia.</p>
+  <div class="grid two">
+    <article class="card"><h3>Alur contoh</h3>
+      <ol><li>Minta informasi lewat formulir.</li><li>Sekolah menghubungi orang tua.</li><li>Orang tua melengkapi berkas.</li><li>Konfirmasi dari sekolah.</li></ol>
+      <h3>Berkas</h3><p>[Daftar dokumen perlu dikonfirmasi sekolah]</p></article>
+    <form class="card" id="regForm" novalidate>
+      <h3>Minta informasi pendaftaran</h3>
+      <p class="warn" id="modeNote"></p>
+      <label for="namaWali">Nama orang tua atau wali</label><input id="namaWali" name="nama_wali" autocomplete="off" required minlength="2" maxlength="100">
+      <label for="kontak">Kontak (telepon atau WhatsApp)</label><input id="kontak" name="kontak" inputmode="tel" autocomplete="off" required minlength="5" maxlength="50">
+      <label for="namaCalon">Nama calon peserta didik</label><input id="namaCalon" name="nama_calon" autocomplete="off" required minlength="2" maxlength="100">
+      <label for="topik">Informasi yang ingin ditanyakan</label>
+      <select id="topik" name="topik" required><option value="">Pilih salah satu</option><option>Jadwal</option><option>Persyaratan</option><option>Program</option><option>Lainnya</option></select>
+      <label class="check"><input type="checkbox" id="setuju" name="setuju_privasi" required> Saya setuju data ini dipakai sekolah untuk menghubungi saya. [Kebijakan privasi perlu disiapkan sekolah]</label>
+      <p class="error" id="formMsg" role="alert" aria-live="assertive"></p>
+      <button class="btn btn-green" type="submit">Kirim permintaan</button>
+    </form>
+  </div>
+</section>
+
+<section id="lokasi" class="sec alt"><div class="wrap">
+  <h2>Lokasi</h2>
+  <div class="card placeholder" id="mapBox"><p> <div class="card" id="mapBox">
+<p>Lihat lokasi PAUD Nurul Hikmah di Google Maps.</p>
+<a class="btn btn-green" href="https://maps.app.goo.gl/Xb58xR5xoJ2aHyUf9" target="_blank" rel="noopener">Buka di Google Maps</a>
+</div>
+</p>
+  <!-- Setelah alamat resmi ada: tempel iframe Google Maps di dalam #mapBox -->
+  </div>
+</div></section>
+
+<section id="kontak" class="sec wrap">
+  <h2>Kontak</h2>
+  <div class="grid two">
+    <article class="card"><dl><dt>Alamat</dt><dd>Perintis Kemerdekaan, Kp. Cikaret, RT 02 / RW 01, Kelurahan/Desa Sukamaju, Kecamatan Cianjur, Kabupaten Cianjur, Provinsi Jawa Barat (Kode Pos: 43211)</dd><dt>Telepon</dt><dd>+6285721327726</dd><dt>Email</dt><dd>Nurulhikmahkb1@gmail.com</dd><dt>WhatsApp</dt><dd>+6285721327726</dd></dl></article>
+    <article class="card"><p>Tombol WhatsApp aktif setelah nomor resmi diverifikasi.</p><a class="btn btn-green" id="waBtn" href="https://wa.me/6285721327726" target="_blank" rel="noopener">Hubungi via WhatsApp</a>
+
+</article>
+  </div>
+</section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <p><strong>PAUD Nurul Hikmah</strong>, Cianjur. Situs demo, data belum resmi.</p>
+  <p><a href="#beranda">Beranda</a> <a href="#program">Program</a> <a href="#berita">Berita</a> <a href="#pendaftaran">Pendaftaran</a> <a href="#kontak">Kontak</a></p>
+  <p>&copy; <span id="year"></span> PAUD Nurul Hikmah. Kebijakan privasi: [belum tersedia]</p>
+</div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
