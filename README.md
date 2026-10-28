@@ -1,1 +1,0 @@
-# paudnurul-hikmah
